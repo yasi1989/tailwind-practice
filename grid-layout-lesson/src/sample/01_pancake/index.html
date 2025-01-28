@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../../output.css" />
+  </head>
+  <body>
+    <div class="grid grid-cols-[minmax(0_auto)] grid-rows-[auto_1fr_auto] min-h-svh">
+      <header class="grid grid-cols-[auto_1fr] grid-flow-col gap-2 items-center p-4">
+        <div class="w-8 h-8 sm:w-12 sm:h-12">
+          <a href="#"><img src="../../set/assets/contents/logo.svg" alt="" /></a>
+        </div>
+        <div class="text-base sm:text-xl font-bold"><a href="#">Treak Plannner</a></div>
+        <ul class="hidden sm:grid grid-flow-col gap-2 justify-start">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <button class="hidden sm:block py-1 px-3 bg-black text-white rounded-md text-xs sm:text-sm border">ログイン</button>
+        <button class="hidden sm:block py-1 px-3 bg-transparent text-black rounded-md text-xs sm:text-sm border">登録</button>
+        <button class="block sm:hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M12 5v.01M12 12v.01M12 19v.01M12 6a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z"
+                />
+            </svg>
+        </button>
+      </header>
+
+      <main class="grid grid-cols-[max-content_minmax(auto,_400px)] gap-x-8">
+
+      </main>
+      <footer></footer>
+    </div>
+  </body>
+</html>
